@@ -53,7 +53,7 @@ def updateTitleDoc(projectArea, projectsDict, pathToTitles, docxPath):
     pdfOutputLoc = outputName[0:-4] + "pdf"
     print(f"Output location for pdf: {pdfOutputLoc}")
     print(f"Output location for word doc: {outputName}\n")
-    print ('*** Do not open any docx files until all have been converted (this will overwrite current pdfs) ****\n')
+    print ('*** Do not open any docx files until all have been converted (this will overwrite current pdfs) *****\n')
     convert(outputName, pdfOutputLoc)
 def feature_class_to_pandas_data_frame(feature_class, field_list):
     return pd.DataFrame(
